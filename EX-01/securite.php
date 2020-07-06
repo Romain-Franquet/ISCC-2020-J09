@@ -36,6 +36,8 @@ header ("mini-site-rooting.php");
 if ($_SESSION["Login"] = "Romain") 
 $_SESSION ['Key'] = "id";
 header ("mini-site-rooting.php");;
+if(isset($_SESSION['Key'])){  
+    echo ("<p> Login $_SESSION['Login'] </p>" )
 
 
 ?>

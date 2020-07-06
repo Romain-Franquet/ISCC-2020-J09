@@ -23,6 +23,8 @@
             if(isset($_COOKIE['user_id'])){
                 echo 'Votre ID de session est le ' .$_COOKIE['user_id'];
             }
+            if(isset($_FILES['image'])){
+                echo $_FILES
         ?>
 <?php
 if(isset($_COOKIE)){   
